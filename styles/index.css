@@ -1,0 +1,66 @@
+* {
+    margin-inline: 0.7rem;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #112410;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.cards-container img {
+    /* height: 12rem; */
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+.cards-container img:hover {
+    transform: scale(1.08);
+}
+
+.mistery-card {
+    height: 19.4rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.7rem;
+    padding-inline: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    border: none;
+    transition: 0.2s;
+    background-color: #4a7261;
+    color: white;
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+h1 {
+    background-color: #4a7261;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+}
+#all-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+#container-result {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 30%;
+    margin-top: 6.3rem;
+    transition: 0.3s;
+}
+
+#container-result:hover {
+    transform: scale(1.08);
+}
